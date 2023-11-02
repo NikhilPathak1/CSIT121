@@ -1,0 +1,160 @@
+
+body{ background-color:#240a;
+      background-image: url("image/chicken.png");
+      background-repeat: no-repeat;
+      background-position: top;
+      background-color:rgb(25,30, 25, 0.5);
+     
+    }
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+   display: flex;
+    
+}
+
+h1 { font-size: 19pt;
+  color: darkblue;
+  text-shadow: 2px 2px 5px red;
+  text-align: center;
+    }
+h2{ font-size: 18pt; font-family:algerian ; color:#660000;
+    border:2px solid #eea000;
+    width: 150pt;
+    background-color: #777000;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+h3{
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color:white;
+  }
+h4{
+  font-size: 18pt; font-family:algerian ; color:floralwhite;
+  box-shadow: 1px 2px ;
+  padding:10px;
+}
+.nav { float: left;
+     width: auto; 
+
+   } 
+.nav1{ float:right;
+      width: auto; 
+       padding: 10px;
+    }
+ul{
+  font-size: 15pt; font-family:calibri;
+  border:2px solid skyblue;
+  width:auto;
+  background-color: lightyellow;
+  opacity: 0.5;
+    padding: 20px;
+}    
+ol{
+
+  font-size: 14pt;
+  border:2px solid skyblue;
+  width:auto;
+  height: auto;
+  background-color: lightyellow;
+  opacity: 0.5;
+  padding: 20px;
+ 
+
+}
+li{
+  font-size: 14pt; color: black;
+}  
+
+#footer{
+  width: 80%;
+
+
+  text-indent: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-style:italic; font-size: 17pt; color: yellowgreen;
+  clear:both ;
+}   
+img{
+  border:2px solid lightcyan;
+  border-radius: 50%; 
+  vertical-align: middle;
+}
+a{
+  font-size: 17pt;
+}
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: blue;
+}
+@media only screen and (max-width: 768px) {
+    #wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+  }
+  .nav { float: left;
+     width: auto; 
+
+   } 
+.nav1{ float:right;
+      width: auto; 
+       padding: 10px;
+    }
+
+    a.link {
+        font-size: 16px; /* Increase link font size */
+    }
+}
+table {
+            border-collapse: collapse;
+            width:30%;
+            margin: 20px auto;
+             border: solid black;
+}
+ tr:nth-of-type(even) {background-color:lightgrey}
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+            
+        }
+        th {
+            background-color: grey;
+        }
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+@media only screen and (max-width: 768px) {
+    body { 
+        background-color: #240a; 
+        background-image: url("image/chicken.png");
+    }
+
+    #wrapper {
+        flex-direction: column;
+    }
+
+    .nav, .nav1 {
+        float: none;
+        width: 100%;
+    }
+    img {
+        width: 100%; 
+      }
+    }
