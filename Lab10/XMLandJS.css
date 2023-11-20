@@ -1,0 +1,36 @@
+  body {
+            font-family: 'Arial', sans serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #ff4f4;
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            color: #066cc;
+        }
+
+        h1 {
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        code {
+            background-color: #f2f2f2;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+
+        #content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
